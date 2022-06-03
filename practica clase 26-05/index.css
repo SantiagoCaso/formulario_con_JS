@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2a9d8f;
+    height: 900px;
+}
+
+form{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #e9c46a;
+    color: white;
+    /* -webkit-text-stroke: 0.5px black; */
+    padding: 40px;
+    border: 10px solid #264653;
+    border-radius: 10px;
+}
+
+input{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: solid #264653 2px;
+    transition: padding 0.5s;
+}
+
+select{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: solid #264653 2px;
+    transition: padding 0.5s;
+}
+
+label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+*{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+button{
+    margin-left: 10px;
+    border-radius: 10px;
+    border: solid #264653 2px;
+    transition: padding 0.5s;
+}
+
+button:hover{
+    background-color: #e76f51;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+input:hover{
+    background-color: #e76f51;
+    padding: 3%;
+}
+
+select:hover{
+    background-color: #e76f51;
+    padding: 5%;
+}
+
+#mostrarDatos{
+    margin-top: 20px;
+}
+
+#textDatos{
+    background-color: white;
+    border: solid #264653 2px;
+    padding: 27px;
+    border-radius: 10px;
+}
+
+#limpiar{
+    margin-top: 20px;
+}
+

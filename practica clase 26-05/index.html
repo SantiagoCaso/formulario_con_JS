@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Datos de form js</title>
+</head>
+<body>
+    <form action="formulario">
+        <label for="name" id="name" >Nombre completo:</label>
+        <input type="text" id="input-name" name="nombre">
+        <label for="age" id="age">Edad:</label>
+        <input type="number" id="input-age" name="edad">
+        <label for="born" id="born">Fecha de nacimiento:</label>
+        <input type="date" id="input-born" name="nacimiento">
+        <label for="provincia">Provincia</label>
+        <select name="provincia-select" id="provincia" name="provincia">
+            <option value="Cordoba">Cordoba</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="La pampa">La Pampa</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Entre Rios">Entre Rios</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Misiones">Misiones</option>
+            <option value="Salta">Salta</option>
+            <option value="Jujuy">Jujuy</option>
+        </select>
+        <button id="guardar" type="button" onclick="procesarFormulario()">Guardar</button>
+        <button id="mostrarDatos" onclick="mostrarDatosFunction()" type="button">Mostrar datos</button>
+        <button id="limpiar" onclick="limpiarDatos()" type="button">Limpiar</button>
+
+        <div id="datosEnPantalla">
+   
+        </div>
+    </form>
+</body>
+</html>
